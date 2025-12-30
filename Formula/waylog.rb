@@ -1,13 +1,13 @@
 class Waylog < Formula
-  desc "WayLog: Sync and save your AI coding assistant chat history"
+  desc "Seamlessly sync, preserve, and version-control your AI coding conversations locally"
   homepage "https://github.com/shayne-snap/waylog-cli"
-  url "https://github.com/shayne-snap/waylog-cli/releases/download/v0.1.0/waylog-macos-arm64.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
-  version "0.1.0"
+  url ""https://github.com/shayne-snap/waylog-cli/releases/download/v0.1.0/waylog-macos-arm64.tar.gz""
+  sha256 "ab9c760dd97415c3ba09a29b28ccbf458f60c79552c32f23e434419a7b844d5b"
+  version "v0.1.0"
+  license "Apache-2.0"
 
   def install
-    # Install waylog-cli as waylog binary command
-    bin.install "waylog-cli" => "waylog"
+    bin.install "waylog"
   end
 
   test do
