@@ -1,9 +1,9 @@
 class Waylog < Formula
   desc "Seamlessly sync, preserve, and version-control your AI coding conversations locally"
   homepage "https://github.com/shayne-snap/waylog-cli"
-  url "https://github.com/shayne-snap/waylog-cli/releases/download/v0.2.1/waylog-macos-arm64.tar.gz"
-  sha256 "301261c1c95b844993a03b7b0e4d5f7a9b25c19a70f20e0e997c1bfae704b7fc"
-  version "v0.2.1"
+  url "https://github.com/shayne-snap/waylog-cli/releases/download/v0.2.2/waylog-macos-arm64.tar.gz"
+  sha256 "b2c256e851b29ea27a308333ce46300780e884da711c801357aac6d4e7182a15"
+  version "v0.2.2"
   license "Apache-2.0"
 
   def install
